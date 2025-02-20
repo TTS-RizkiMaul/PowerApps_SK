@@ -42,20 +42,6 @@ The description method should be a combination of “Pascal case” and “Snake
 Basically, “screen ID_control name” is used as the snake case, but the control name should be written in the Pascal case.  
 Screen IDs should be written in all capital letters.
 
-##### (Recommended content) The following naming configuration is also highly maintainable
-
-> 1. capitalize the starting letter for each word  
->
-> 2. controls etc. belonging to a screen should be separated by underscores and inherit the higher level naming as follows.  
-> screen_id_gallery_name_control_name
-> > 3. 
-> 3. controls may be prefixed (e.g. “lbl” for labels)  
-> In that case, the prefix should be in lower case, and the naming after that should be in Pascal case
-> > 3. the control may be prefixed (e.g. “lbl” for a label) > in which case the prefix should be lower case and the rest of the name in the Pascal case  
-> 4.
-> In the case of a modal window, add “MW” to the end of the modal window container name in the form of ScreenID_modalwindow_nameMW.  
-> > Example: USR001_conEditMW etc.
-
 ##### Example of control prefix (cited from MS site)
 
 | Control Name                          |Prefix|
