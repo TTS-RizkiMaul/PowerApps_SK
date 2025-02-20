@@ -18,21 +18,6 @@ However, we will define naming rules in Power Automate as well, because we want 
 | 3 | SnakeCase | Use underscores (_) between words (e.g. upper_snake_case) |
 | 4 | Upper SnakeCase | A method of entering and stating words with underscores (_) between words and using all uppercase letters (e.g. UPPER_SNAKE_CASE) |
 
-## About Solutions
-
-In the Power Platform, Power Apps apps, Power Automate flow, connection information, etc. are stored in a single solution in a large container called a solution.  
-In the Power Platform, it is possible to store and manage Power Apps apps, Power Automate flows, connection information, etc. in a single solution, which is called a solution.
-
-In this development, the following solutions are prepared
-
-| Solution Name | Description |
-|---------------|--------------------------------------------|
-| TTSFLOW - Solution for managing applications centered on internal workflow applications for users
-| TTSFLOW-ADMIN - Solution to manage apps centered on internal workflow apps for administrators
-| TTSFLOW-BATCH - Solution for managing Power Automate batches running on internal workflow applications
-
-Although it was possible to manage them in a single solution, it was decided to release them in solution units.  
-However, in order to avoid releasing unmodified apps as well, we decided to manage them as separate solutions.
 
 ## Power Apps Coding Conventions
 
@@ -114,3 +99,6 @@ Screen IDs should be written in all capital letters.
 | Radio                                 | rdo  |
 | Spinner                               | spn  |
 | Avatar                                | avt  |
+
+
+#Credits : TTSJ-Workflow Requirements Document (by : Itazu-san) 
